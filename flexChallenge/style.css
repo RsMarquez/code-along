@@ -1,5 +1,5 @@
 ul {
-    padding: ;
+    padding: 0;
     margin-top: 10px;
     list-style: none;
 }
@@ -11,6 +11,9 @@ li {
     font-size: 3em;
     text-align: center;
 }
-my-list {
-
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-start;
 }
